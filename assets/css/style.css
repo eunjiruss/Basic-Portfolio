@@ -1,8 +1,11 @@
 
 * {
-
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
+}
+
+body {
+    background-image: url("../images/background_pattern.png");
 }
 
 ul {
@@ -10,18 +13,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
     display: inline-block;
 }
 
 li {
 	float: left;
-
 }
 
 li a {
 	display: block;
-	color: white;
+	color: #777777;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -29,21 +30,32 @@ li a {
 
 li a:hover {
 	background-color: #111;
+}
 
+.nav-borders-both {
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+}
+
+.nav-bar {
+	display: inline-block;
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
 }
 
 nav {
 	margin-top: 20px;
 	margin-left: 60%;
-	/*margin-left: 500px;*/
 	width: 30%;
 }
 
 #nav-header {
-	background-color: yellow;
+	background-color: #4aaaa5;
 	margin-left: 10%;
 	padding: 14px 16px;
 	float: left;
+	color: #ffffff;
 }
 
 .header-font {
@@ -51,10 +63,21 @@ nav {
 	font-size: 20px;
 }
 
-.nav-bar {
-	background-color: green;
-	display: inline-block;
-	width: 100%;
+.container {
+	width: 960px;
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.footer {
+	background-color: #666666;
+	padding: 14px 16px;
+	border-top: 2px solid #4aaaa5;
+	color: silver;
+}
+
+.footer p {
+	text-align: center;
 }
 
 
