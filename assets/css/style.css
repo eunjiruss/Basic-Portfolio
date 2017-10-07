@@ -5,15 +5,15 @@
 }
 
 body {
-    background-image: url("../images/background_pattern.png");
+	background-image: url("../images/background_pattern.png");
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
 }
 
 li {
@@ -86,7 +86,7 @@ nav {
 	margin-bottom: 50px;
 }
 #content {
-	width: 650px;
+	width: 700px;
 	background-color: #ffffff;
 	float: left;
 	margin-left: 135px;
@@ -129,6 +129,7 @@ h2 {
 .p-about {
 	overflow: auto;
 	color: #777777;
+	margin-right: 20px;
 }
 
 .icons {
@@ -139,6 +140,7 @@ h2 {
 	position: relative;
 	padding: 10px;
 }
+
 
 
 
