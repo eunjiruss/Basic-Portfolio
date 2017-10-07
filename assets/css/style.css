@@ -75,6 +75,7 @@ nav {
 	padding: 0px 16px;
 	border-top: 4px solid #4aaaa5;
 	color: silver;
+	overflow: auto;
 }
 
 .footer p {
@@ -106,7 +107,7 @@ nav {
 	display: right;
 	margin-left: 95%;
 	color: #4aaaa5;
-	height: 160px;
+	height: 200px;
 }
 
 h1 {
@@ -145,6 +146,27 @@ h2 {
 	padding: 10px;
 }
 
+.contact {
+	display: block;
+	width: 600px;
+	margin: auto;
+
+}
+
+.p-contact {
+	padding: 10px;
+	margin: 0 0 0 20px;
+	color: black;
+}
+
+.button {
+	width: 100px;
+	padding: 10px;
+	color: white;
+	background-color: #4aaaa5;
+	border: none;
+	margin: 20px 0 40px 30px;
+}
 
 
 
