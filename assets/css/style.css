@@ -156,7 +156,7 @@ h2 {
 .p-contact {
 	padding: 10px;
 	margin: 0 0 0 20px;
-	color: black;
+	color: #777777;
 }
 
 .button {
@@ -167,6 +167,39 @@ h2 {
 	border: none;
 	margin: 20px 0 40px 30px;
 }
+
+.port-img {
+	width: 40%;
+	height: 40%;
+	display: inline-block;
+	margin-left: 30px;
+	position: relative;
+	padding: 10px;
+	margin-right:10px;
+}
+
+.port-img2 {
+	width: 40%;
+	height: 40%;
+	display: inline-block;
+	float: left;
+	margin-left: 32px;
+	position: relative;
+	padding: 10px;
+	margin-right: 11px;
+	margin-bottom: 30px;
+}
+
+.imgtype {
+	position: absolute;
+	width: 40%;
+	height: 40%;
+}
+
+
+
+
+
 
 
 
